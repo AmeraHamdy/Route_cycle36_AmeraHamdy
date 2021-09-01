@@ -1,0 +1,1031 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="kewords" content=" add,del,insert,search">
+    <meta name="descreption" content="responsive web site">
+    <meta name="author" content="Amera Hamdy">
+    <meta http-equiv="refresh" content="90"> <!-- refresh kol 30 sec -->
+    <!-- <base href="https://www.w3schools.com/images/" target="_blank"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  to responsive area and scrolling of website at mobile or computer or tab-->
+    <title>responsive website</title>
+
+
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- one bootstrap on css file-->
+    <link rel="stylesheet" href="css/all.min.css"> <!-- font awesome-->
+    <link rel="stylesheet" href="css/main.css"> <!-- my css file-->
+
+
+    <script src="js/bootstrap.bundle.min.css"></script>
+    <!--two botstrap on js file -->
+
+
+</head>
+
+<body>
+
+<div class=" setting "><i class="fas fa-cogs bg-dark p-3 text-white"></i></div>
+    <!------------------------------------------------------------------------------------------------------------------------ navbar[]-->
+    <div class="nav_section position-fixed  w-100">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+
+                <a class="navbar-brand" href="#">
+                    <img src="images/icon2.PNG" alt="logo">
+                    <h2 class="d-inline">Angora</h2>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#About">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Team">Team</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Projects">Projects</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">blog</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">contact</a>
+                        </li>
+
+                        <li class="nav-item ps-5">
+                            <a class="nav-link" href="#"><i class="fab fa-twitter fa-fw"></i></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fab fa-facebook-f  fa-fw"></i></a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fab fa-instagram fa-fw"></i></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!---------------------------------------------------------------------------------------------------------- home section  carusol-->
+    <section id=home class="bg-primary ">
+        <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+
+            <div class="carousel-inner ">
+
+
+                <div class="carousel-item active position-relative " data-bs-interval="9000">
+                    <img src="images/slideshow-1.jpg " class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-flex    align-items-center h-100 ">
+                        <h1 class="m-auto fw-bolder display-4">Advanced in <br>digital works.</h1>
+                    </div>
+                    <a href="#about">
+
+                        <div class="upanddown position-absolute bottom-0  start-50 ">
+                            <div class="dot"></div>
+                        </div>
+                    </a>
+
+                </div>
+
+
+                <div class="carousel-item " data-bs-interval="9000">
+                    <img src="images/slideshow-2.jpg " class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-flex  align-items-center h-100">
+                        <h1 class="m-auto fw-bolder display-4">Focusedon <br>strategy.</h1>
+                    </div>
+
+                    <a href="#about">
+                        <div class="upanddown position-absolute bottom-0 start-50   ">
+                            <div class="dot"></div>
+                        </div>
+                    </a>
+
+                </div>
+
+
+                <div class="carousel-item" data-bs-interval="9000">
+                    <img src="images/slideshow-3.jpg " class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-flex   align-items-center h-100">
+                        <h1 class="m-auto fw-bolder display-4">Focused <br>on strategy.</h1>
+                    </div>
+
+                    <a href="#about">
+
+                        <div class="upanddown position-absolute bottom-0  start-50  ">
+                            <div class="dot"></div>
+                        </div>
+                    </a>
+
+                </div>
+
+
+
+            </div>
+
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon border border-3 p-3 position-absolute start-0"
+                    aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon border border-3 p-3 position-absolute  end-0 top-50"
+                    aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+
+
+    </section>
+    <!---------------------------------------------------------------------------------------------------------- constant div header-->
+    <div class=" header_all_sections  container m-auto  ">
+        <h2 class="header">About Us</h2>
+        <p class="text-center pb-2 mb-5">Pellentesque elementum libero enim, eget gravida nunc laoreet et.<br> Nullam ac
+            enim auctor, fringilla risus at,
+            imperdiet turpis. Pellentesque elementum libero enim.</p>
+    </div>
+    <!------------------------------------------------------------------------------------------------------------------------- section1[About] -->
+    <section class="section1_About" id="About">
+        <div class="container">
+            <div class="row my-5">
+
+                <div class="col-md-6  ">
+                    <div class="sec2 p-5">
+                        <p>Pellentesque vel elit egestas, pretium est ac, convallis orci. Vivamus sem nisl, tristique
+                            vel fringilla vitae, efficitur at eros. Duis aliquet aliquet pharetra. Suspendisse bibendum
+                            erat quis gravida pulvinar. Phasellus vel eros porta, blandit dui ac, viverra felis.
+
+                        </p>
+                        <p>Nunc placerat iaculis pulvinar. Nullam auctor mauris sed urna posuere volutpat. Mauris ut dui
+                            sit amet elit fermentum fermentum. Fusce tincidunt diam at bibendum porta.
+
+                        </p>
+                        <p>Aliquam nunc felis, sagittis eu purus non, interdum vehicula urna. Vivamus congue diam
+                            sapien, eu pellentesque ipsum ultricies quis.
+
+                        </p>
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-6  ">
+                    <div class="sec2 p-5  h-100 d-flex flex-column justify-content-around">
+
+
+                        <label class="s d-flex justify-content-between mb-0 pb-0">
+                            <h4>Branding </h4>
+                            <h6>80%</h6>
+                        </label>
+                        <div class="progress mb-4  " style="height: 8px;">
+                            <div class="progress-bar " role="progressbar" style="width: 80%" aria-valuenow="80"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+
+                        <label class="s d-flex justify-content-between mb-0 pb-0">
+                            <h4> Web Design </h4>
+                            <h6>95%</h6>
+                        </label>
+                        <div class="progress mb-4  " style="height: 8px;">
+                            <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+
+
+
+
+                        <label class="s d-flex justify-content-between mb-0 pb-0">
+                            <h4>Graphic Design </h4>
+                            <h6>85%</h6>
+                        </label>
+                        <div class="progress mb-4 " style="height: 8px;">
+                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+
+
+
+                        <label class="s d-flex justify-content-between mb-0 pb-0">
+                            <h4>Development </h4>
+                            <h6>70%</h6>
+                        </label>
+                        <div class="progress mb-4 " style="height: 8px;">
+                            <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------------------------------------------------------------------------------------------------ section2[ourTeam] -->
+    <div class=" header_all_sections  container m-auto  ">
+        <h2 class="header_ourteam">Our team</h2>
+        <p class="text-center pb-2 mb-5">Pellentesque elementum libero enim, eget gravida nunc laoreet et.<br> Nullam ac
+            enim auctor, fringilla risus at,
+            imperdiet turpis. Pellentesque elementum libero enim.</p>
+    </div>
+
+
+
+    <section class="section2_Team" id="Team">
+        <div class="container">
+            <div class="row">
+
+
+
+                <div class="col-md-3  ">
+                    <div class="sec2">
+                        <div class="img-back bg-secondary position-relative">
+                            <img src="images/member-1.jpg" alt="" class="w-100">
+                            <div
+                                class="img_hover bg-success position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center ">
+                                <i class="fab fa-twitter fa-fw fa-2x"></i>
+                                <i class="fab fa-facebook-f  fa-fw fa-2x"></i>
+                                <i class="fab fa-instagram fa-fw fa-2x"></i>
+                                <i class="fab fa-gg-circle fa-2x"></i>
+                            </div>
+                        </div>
+
+                        <div class=" text-dark text-center p-3">
+                            <h4 class="h4_hover">Michael Broad</h4>
+                            <p>Web Designer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3  ">
+                    <div class="sec2">
+                        <div class="img-back bg-secondary position-relative">
+                            <img src="images/member-2.jpg" alt="" class="w-100">
+                            <div
+                                class="img_hover bg-success position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center ">
+                                <i class="fab fa-twitter fa-fw fa-2x"></i>
+                                <i class="fab fa-facebook-f  fa-fw fa-2x"></i>
+                                <i class="fab fa-instagram fa-fw fa-2x"></i>
+                                <i class="fab fa-gg-circle fa-2x"></i>
+                            </div>
+                        </div>
+
+                        <div class=" text-dark text-center p-3">
+                            <h4 class="h4_hover">Jeannette Crow</h4>
+                            <p>CEO Founder</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3  ">
+                    <div class="sec2">
+                        <div class="img-back bg-secondary position-relative">
+                            <img src="images/member-3.jpg" alt="" class="w-100">
+                            <div
+                                class="img_hover bg-success position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center ">
+                                <i class="fab fa-twitter fa-fw fa-2x"></i>
+                                <i class="fab fa-facebook-f  fa-fw fa-2x"></i>
+                                <i class="fab fa-instagram fa-fw fa-2x"></i>
+                                <i class="fab fa-gg-circle fa-2x"></i>
+                            </div>
+                        </div>
+
+                        <div class=" text-dark text-center p-3">
+                            <h4 class="h4_hover">Martin Lawrence</h4>
+                            <p>App Developer</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-3  ">
+                    <div class="sec2">
+                        <div class="img-back bg-secondary position-relative">
+                            <img src="images/member-4.jpg" alt="" class="w-100">
+                            <div
+                                class="img_hover bg-success position-absolute top-0 start-0 end-0 bottom-0 d-flex justify-content-center align-items-center ">
+                                <i class="fab fa-twitter fa-fw fa-2x"></i>
+                                <i class="fab fa-facebook-f  fa-fw fa-2x"></i>
+                                <i class="fab fa-instagram fa-fw fa-2x"></i>
+                                <i class="fab fa-gg-circle fa-2x"></i>
+                            </div>
+                        </div>
+
+                        <div class=" text-dark text-center p-3">
+                            <h4 class="h4_hover">Isabella Dowson</h4>
+                            <p>Creative Director</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="d-flex justify-content-lg-between p-5">
+                <h2 class="d-inline text-dark">Do you have any ideas?</h2>
+                <a href="#contact" class="botn_hover btn btn-lg btn-outline-danger text-white bg-danger">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-------------------------------------------------------------------------------------------------------------------------- section4[services] -->
+    <div class=" header_all_sections  container-fluid m-auto  p-3 bg-light ">
+        <h2 class="header_services">Services</h2>
+        <p class="text-center pb-2 mb-5">Pellentesque elementum libero enim, eget gravida nunc laoreet et.<br> Nullam ac
+            enim auctor, fringilla risus at,
+            imperdiet turpis. Pellentesque elementum libero enim.</p>
+    </div>
+
+
+    <section class="section4_services container-fluid bg-light" id="services">
+        <div class="container ">
+
+            <div class="row flex-nowrap">
+
+
+                <div class="col-md-4  ">
+                    <div class="sec4">
+
+                        <div class="d-flex p-3">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-laptop fa-fw fa-3x pe-2"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h3 class="pb-2">Responsive Layout</h3>
+                                <p> This is some content from a media component. You can replace this with any content
+                                    and adjust it as needed.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 ">
+                    <div class="sec4">
+
+                        <div class="d-flex  p-3">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-laptop fa-fw fa-3x pe-2"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h3 class="pb-2">Responsive Layout</h3>
+                                <p> This is some content from a media component. You can replace this with any content
+                                    and adjust it as needed.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4  ">
+                    <div class="sec4">
+
+                        <div class="d-flex p-3 ">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-laptop fa-fw fa-3x pe-2"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h3 class="pb-2">Responsive Layout</h3>
+                                <p> This is some content from a media component. You can replace this with any content
+                                    and adjust it as needed.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="row flex-nowrap">
+
+
+                <div class="col-md-4  ">
+                    <div class="sec4">
+
+                        <div class="d-flex p-3">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-laptop fa-fw fa-3x pe-2"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h3 class="pb-2">Responsive Layout</h3>
+                                <p> This is some content from a media component. You can replace this with any content
+                                    and adjust it as needed.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 ">
+                    <div class="sec4">
+
+                        <div class="d-flex  p-3">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-laptop fa-fw fa-3x pe-2"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h3 class="pb-2">Responsive Layout</h3>
+                                <p> This is some content from a media component. You can replace this with any content
+                                    and adjust it as needed.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4  ">
+                    <div class="sec4">
+
+                        <div class="d-flex p-3 ">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-laptop fa-fw fa-3x pe-2"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h3 class="pb-2">Responsive Layout</h3>
+                                <p> This is some content from a media component. You can replace this with any content
+                                    and adjust it as needed.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="row flex-nowrap">
+
+
+                <div class="col-md-4  ">
+                    <div class="sec4">
+
+                        <div class="d-flex p-3">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-laptop fa-fw fa-3x pe-2"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h3 class="pb-2">Responsive Layout</h3>
+                                <p> This is some content from a media component. You can replace this with any content
+                                    and adjust it as needed.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 ">
+                    <div class="sec4">
+
+                        <div class="d-flex  p-3">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-laptop fa-fw fa-3x pe-2"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h3 class="pb-2">Responsive Layout</h3>
+                                <p> This is some content from a media component. You can replace this with any content
+                                    and adjust it as needed.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4  ">
+                    <div class="sec4">
+
+                        <div class="d-flex p-3 ">
+                            <div class="flex-shrink-0">
+                                <i class="fas fa-laptop fa-fw fa-3x pe-2"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <h3 class="pb-2">Responsive Layout</h3>
+                                <p> This is some content from a media component. You can replace this with any content
+                                    and adjust it as needed.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!------------------------------------------------------------------------------------------------------------------------ section5 [blog-client review]-->
+
+    <div class=" header_all_sections  container-fluid m-auto  p-3 bg-white ">
+        <h2 class="header_client">Client Review</h2>
+        <p class="text-center pb-2 mb-5">Pellentesque elementum libero enim, eget gravida nunc laoreet et.<br> Nullam ac
+            enim auctor, fringilla risus at,
+            imperdiet turpis. Pellentesque elementum libero enim.</p>
+    </div>
+
+
+    <section class="section5_blog mb-5" id="blog">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-8 m-auto ">
+
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+                        <div class="carousel-inner m-5 p-5">
+
+                            <div class="carousel-item  active">
+                                <div class="sec5">
+                                    <div class="img-next d-flex justify-content-evenly">
+                                        <div class="img_div  d-flex justify-content-center  " data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                            <img src="images/client-2.png" class="  w-100  rounded-circle position-relative " alt="">
+
+                                        </div>
+    
+                                        <div class="img_div  d-flex justify-content-center" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                            <img src="images/client-3.png" class="  w-100   rounded-circle " alt="">
+                                        </div>
+                                        <div class="img_div_x  d-flex justify-content-center" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                            <img src="images/client-1.png" class="  w-100  active_img   shadow-lg  rounded-circle " alt="">
+                                        </div>
+                                        <div class="img_div  d-flex justify-content-center" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                            <img src="images/client-4.png" class=" w-100   rounded-circle " alt="">
+                                        </div>
+                                        <div class="img_div  d-flex justify-content-center" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                            <img src="images/client-5.png" class="  w-100  rounded-circle " alt="">
+                                        </div>
+
+                                    </div>
+
+
+                                    <div class=" img-desc text-center  ">
+                                        <h4>Amera Hamdy</h4>
+                                        <span>web developer</span>
+
+                                    </div>
+
+                                    <div class=" text-center py-2">
+                                        <i class="fas fa-quote-left"></i>
+                                        <p class="d-inline">Some representative placeholder content for the first slide
+                                            Some
+                                            representative placeholder content for the first slide.representative
+                                            placeholder content for the firs.older content for the first
+                                            slide.representative p</p>
+                                        <i class="fas fa-quote-right"></i>
+                                    </div>
+                                </div>
+
+                                
+                            </div>
+
+                            
+
+                            <div class="carousel-item">
+                                
+                                <div class="sec5">
+                                    <div class="img-next d-flex justify-content-evenly">
+
+                                    <div class="img_div  d-flex justify-content-center " data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                        <img src="images/client-3.png" class=" w-100 active rounded-circle " alt="">
+                                    </div>
+                                    <div class="img_div  d-flex justify-content-center " data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                        <img src="images/client-4.png" class=" w-100 active rounded-circle " alt="">
+                                    </div>
+
+                                    <div class="img_div  d-flex justify-content-center " data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                        <img src="images/client-2.png" class=" w-100 active rounded-circle active_img shadow-lg " alt="">
+                                    </div>
+
+                                    <div class="img_div  d-flex justify-content-center " data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                        <img src="images/client-5.png" class=" w-100 active rounded-circle " alt="">
+                                    </div>
+
+                                    <div class="img_div  d-flex justify-content-center " data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                        <img src="images/client-6.png" class=" w-100 active rounded-circle " alt="">
+                                    </div>
+
+</div>
+                                    <div class=" img-desc text-center  ">
+                                        <h4>Eng Nadia</h4>
+                                        <span>Instractor</span>
+
+                                    </div>
+
+                                    <div class=" text-center py-2">
+                                        <i class="fas fa-quote-left"></i>
+                                        <p class="d-inline">
+                                            representative placeholder content for the first slide.representative
+                                            placeholder content for the firs.older content for the firstSome representative placeholder content for the first slide
+                                            Some
+                                            slide.representative p</p>
+                                        <i class="fas fa-quote-right"></i>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="sec5">
+                                    <div class="img-next d-flex justify-content-evenly">
+
+                                    <div class="img_div  d-flex justify-content-center "data-bs-target="#carouselExampleIndicators" data-bs-slide="next" >
+                                        <img src="images/client-4.png" class=" w-100 active rounded-circle " alt="">
+                                    </div>
+
+                                    <div class="img_div  d-flex justify-content-center "data-bs-target="#carouselExampleIndicators" data-bs-slide="next" >
+                                        <img src="images/client-5.png" class=" w-100 active rounded-circle " alt="">
+                                    </div>
+
+
+
+                                    <div class="img_div  d-flex justify-content-center "data-bs-target="#carouselExampleIndicators" data-bs-slide="next" >
+                                        <img src="images/client-3.png" class=" w-100 active rounded-circle  active_img shadow-lg" alt="">
+                                    </div>
+
+
+                                    <div class="img_div  d-flex justify-content-center "data-bs-target="#carouselExampleIndicators" data-bs-slide="next" >
+                                        <img src="images/client-6.png" class=" w-100 active rounded-circle " alt="">
+                                    </div>
+
+
+                                    <div class="img_div  d-flex justify-content-center "data-bs-target="#carouselExampleIndicators" data-bs-slide="next" >
+                                        <img src="images/client-7.png" class=" w-100 active rounded-circle " alt="">
+                                    </div>
+
+</div>
+                                    <div class=" img-desc text-center  ">
+                                        <h4>Eng Mahmoud</h4>
+                                        <span>Menetor</span>
+                                    </div>
+
+                                    <div class=" text-center py-2">
+                                        <i class="fas fa-quote-left"></i>
+                                        <p class="d-inline">Some representative placeholder content for the first slide
+                                            Some
+                                            representative placeholder content for the first slide.representative
+                                            placeholder content for the firs.older content for the first
+                                            slide.representative p</p>
+                                        <i class="fas fa-quote-right"></i>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="sec5">
+                                    <div class="img-next d-flex justify-content-evenly">
+
+                                    <div class="img_div  d-flex justify-content-center "data-bs-target="#carouselExampleIndicators" data-bs-slide="next" >
+                                        <img src="images/client-6.png" class=" w-100 active rounded-circle " alt="">
+                                    </div>
+
+
+                                    <div class="img_div  d-flex justify-content-center "data-bs-target="#carouselExampleIndicators" data-bs-slide="next" >
+                                        <img src="images/client-7.png" class=" w-100 active rounded-circle " alt="">
+                                    </div>
+
+
+                                    <div class="img_div  d-flex justify-content-center "data-bs-target="#carouselExampleIndicators" data-bs-slide="next" >
+                                        <img src="images/client-5.png" class=" w-100 active rounded-circle  shadow-lg active_img" alt="">
+                                    </div>
+
+
+                                    <div class="img_div  d-flex justify-content-center "data-bs-target="#carouselExampleIndicators" data-bs-slide="next" >
+                                        <img src="images/client-8.png" class=" w-100 active rounded-circle " alt="">
+                                    </div>
+
+
+                                    <div class="img_div  d-flex justify-content-center "data-bs-target="#carouselExampleIndicators" data-bs-slide="next" >
+                                        <img src="images/client-9.png" class=" w-100 active rounded-circle " alt="">
+                                    </div>
+
+</div>
+                                    <div class=" img-desc text-center  ">
+                                        <h4>Ahmed Bahnasy</h4>
+                                        <span>software engineer</span>
+                                    </div>
+
+                                    <div class=" text-center py-2">
+                                        <i class="fas fa-quote-left"></i>
+                                        <p class="d-inline"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolores corporis quidem vel aut. Odit, dicta maxime. Rem exercitationem, aliquid, eos iure doloribus laboriosam, explicabo veritatis suscipit labore mollitia ab. Some representative placeholder content for the first slide
+                                         
+                                            slide.representative p</p>
+                                        <i class="fas fa-quote-right"></i>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+
+                            <div class="carousel-item">
+                                <div class="sec5">
+                                    <div class="img-next d-flex justify-content-evenly">
+
+                                    <div class="img_div  d-flex justify-content-center "data-bs-target="#carouselExampleIndicators" data-bs-slide="next" >
+                                        <img src="images/client-7.png" class=" w-100 active rounded-circle " alt="">
+                                    </div>
+
+                                    <div class="img_div  d-flex justify-content-center "data-bs-target="#carouselExampleIndicators" data-bs-slide="next" >
+                                        <img src="images/client-8.png" class=" w-100 active rounded-circle " alt="">
+                                    </div>
+                                    <div class="img_div  d-flex justify-content-center "data-bs-target="#carouselExampleIndicators" data-bs-slide="next" >
+                                        <img src="images/client-9.png" class=" w-100 active rounded-circle shadow-lg active_img " alt="">
+                                    </div>
+                                    <div class="img_div  d-flex justify-content-center "data-bs-target="#carouselExampleIndicators" data-bs-slide="next" >
+                                        <img src="images/client-6.png" class=" w-100 active rounded-circle " alt="">
+                                    </div>
+                                    <div class="img_div  d-flex justify-content-center "data-bs-target="#carouselExampleIndicators" data-bs-slide="next" >
+                                        <img src="images/client-5.png" class=" w-100 active rounded-circle " alt="">
+                                    </div>
+
+</div>
+                                    <div class=" img-desc text-center  ">
+                                        <h4>Eman Taha</h4>
+                                        <span>Front End Developer</span>
+                                    </div>
+
+                                    <div class=" text-center py-2">
+                                        <i class="fas fa-quote-left"></i>
+                                        <p class="d-inline">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt dicta numquam aliquid non corrupti nisi quas vero amet, harum voluptatem, vel a itaque adipisci asperiores, odit similique. Eos, molestias dolore? slide
+                                            Some
+                                            representative placeholder content for the first slide.representative
+                                            placeholder content for the firs.older content for the first
+                                            slide.representative p</p>
+                                        <i class="fas fa-quote-right"></i>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--------------------------------------------------------------------------------------------------------------------------- section6[contact] -->
+
+
+    <div class=" header_all_sections  container-fluid m-auto  p-3 bg-light">
+        <h2 class="header_contact">Get In Touch</h2>
+        <p class="text-center pb-2 mb-5">Pellentesque elementum libero enim, eget gravida nunc laoreet et.<br> Nullam ac
+            enim auctor, fringilla risus at,
+            imperdiet turpis. Pellentesque elementum libero enim.</p>
+    </div>
+
+    <section class="section6_contact container-fluid  bg-light" id="contact">
+        <div class="container ">
+            <div class="row flex-nowrap pb-5  ">
+
+                <div class="col-md-6  p-2  ">
+                    <div class="sec6_left">
+                        <h2>Get answers and advices from professional consultants.</h2>
+
+                        <div class=" bloc_hover d-flex align-items-center my-1 py-1 border-bottom">
+                            <div class=" main_color flex-shrink-0 pb-5">
+                                <i class="fas fa-map fa-fw fa-3x"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-3  ">
+                                <h3>Address</h3>
+                                <p>1650 Lombard Street, San Francisco, CA 94123</p>
+                            </div>
+                        </div>
+
+
+                        <div class=" bloc_hover d-flex align-items-center my-1 py-1 border-bottom">
+                            <div class=" main_color flex-shrink-0 pb-5">
+                                <i class="fas fa-mobile-alt fa-3x fa-fw"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-3  ">
+                                <h3>Phone</h3>
+                                <p>+1 (415) 876-3250 / +1 (415) 876-3251</p>
+                            </div>
+                        </div>
+
+
+                        <div class=" bloc_hover d-flex align-items-center my-1 py-1 ">
+                            <div class=" main_color flex-shrink-0 pb-5">
+                                <i class="fas fa-envelope fa-fw fa-3x"></i>
+                            </div>
+                            <div class="flex-grow-1 ms-3  ">
+                                <h3>Say Hello</h3>
+                                <a href="mailto:amera.hamdy.ahmed@gmail.com"
+                                    class=" text-decoration-none text-dark">[email protected]</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-6  p-2   ">
+                    <form>
+                        <div class="x d-flex flex-column  justify-content-evenly bg-light h-100">
+                            <div class="mb-3 active">
+                                <input type="text" class="form-control form-control-lg" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Name">
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Email">
+                            </div>
+
+                            <div class="mb-3">
+                                <input type="number" class="form-control form-control-lg" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="phone">
+                            </div>
+
+                            <div class="mb-3">
+                                <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="Massage"></textarea>
+                            </div>
+                            <button type="submit"
+                                class="btn btn-outline-danger  botn_hover px-5 py-2 bg-danger text-white w-50">
+                                <i class="fas fa-paper-plane text-white px-2"></i>
+                                Send Message</button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!----------------------------------------------------------------------------------------------------------------------- sectionlast [contact_info]-->
+
+    <section class="contact_info  " id="info">
+
+
+        <div class="container-fluid info_con position-relative  ">
+            <a href="#home" ><i
+                    class="fas fa-angle-up fix text-white fa-2x bg-danger rounded-circle p-3 position-absolute top:50 start-50 translate-middle"></i></a>
+
+
+            <div class="img_last  m-auto text-center p-5">
+                <img src="images/icon.png" class="img-fluid" alt="">
+            </div>
+            <div class="row mx-5">
+
+
+                <div class="col-md-3 p-4 ">
+                    <div class="info_item">
+                        <h3>Contact Info</h3>
+                        <p>1650 Lombard Street,<br>
+                            San Francisco, CA 94123</p>
+                        <p>+1 (415) 876-3250</p>
+                        <a href="mailto:amera.hamdy.ahmed@gmail.com" class=" text-decoration-none text-dark">[email
+                            protected]</a>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-md-3 p-4  ">
+                    <div class="info_item d-flex flex-column">
+                        <h3>Contact Info</h3>
+                        <a href="#" class=" text-decoration-none text-dark">Support</a>
+                        <a href="#" class=" text-decoration-none text-dark">Privacy Policy</a>
+                        <a href="#" class=" text-decoration-none text-dark">Terms & Conditions</a>
+                        <a href="#" class=" text-decoration-none text-dark">Affiliate Program</a>
+                        <a href="#" class=" text-decoration-none text-dark">Careers</a>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-3 p-4  ">
+                    <div class="info_item d-flex flex-column">
+                        <h3>Recent Posts</h3>
+                        <a href="#" class=" text-decoration-none text-dark">Sunset in Venice</a>
+                        <a href="#" class=" text-decoration-none text-dark">Aerial View of Village</a>
+                        <a href="#" class=" text-decoration-none text-dark">Lighted Concrete City</a>
+                        <a href="#" class=" text-decoration-none text-dark">The Little Ghost</a>
+                        <a href="#" class=" text-decoration-none text-dark">Royal Oats ft. Waldo</a>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-3 p-4 ">
+                    <div class="info_item">
+                        <h3>Contact Info</h3>
+                        <a href="#" class="text-decoration-none text-dark btn btn-outline-danger p-2 m-1">HTML5</a>
+                        <a href="#" class="text-decoration-none text-dark btn btn-outline-danger p-2 m-1">CSS3</a>
+                        <a href="#" class="text-decoration-none text-dark btn btn-outline-danger p-2 m-1">jQuery</a>
+                        <a href="#" class="text-decoration-none text-dark btn btn-outline-danger p-2 m-1">UX / UI</a>
+                        <a href="#" class="text-decoration-none text-dark btn btn-outline-danger p-2 m-1">Web</a>
+                        <a href="#" class="text-decoration-none text-dark btn btn-outline-danger p-2 m-1">Graphic</a>
+                        <a href="#" class="text-decoration-none text-dark btn btn-outline-danger p-2 m-1">Design</a>
+                        <a href="#"
+                            class="text-decoration-none text-dark btn btn-outline-danger p-2 m-1">Development</a>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!----------------------------------------------------------------------------------------------------------------------- sectionlast [footer]-->
+    <footer>
+        <div class="  footer_last container-fluid   d-flex justify-content-between px-5">
+            <div class="icons p-4 text-light ">
+                <i class="fab fa-twitter fa-fw fa-2x mx-2"></i>
+                <i class="fab fa-facebook-f  fa-fw fa-2x mx-2"></i>
+                <i class="fab fa-instagram fa-fw fa-2x mx-2"></i>
+                <i class="fab fa-gg-circle fa-fw fa-2x mx-2"></i>
+                <i class="fab fa-pinterest  fa-fw fa-2x mx-2"></i>
+
+            </div>
+
+            <div class="copy p-4  fs-6">
+                <p class="d-inline">Copyright © 2020</p>
+                <a href="#" class=" text-decoration-none text-white">Support</a>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/javascript.js"></script> <!-- my java script file-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
